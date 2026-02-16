@@ -1,5 +1,5 @@
 import { useState } from "react";
-// Task 4: Simple Component with Props
+// Task 1: Simple Component with Props
 // Create a functional component that displays a message passed as a prop
 
 // Creating a MessageCard component
@@ -29,7 +29,7 @@ function MessageCard({ title, message, author }) {
   );
 }
 
-//Task 5 : Toggle Component with State
+//Task 2 : Toggle Component with State
 //Use useState to toggle text or a button
 
 // Creating a ToggleMessage Component
@@ -68,3 +68,4 @@ function App() {
   );
 }
 export default App;
+
