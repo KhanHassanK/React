@@ -1,5 +1,6 @@
 import { useState } from "react";
-
+// Task 1: Counter Component
+// Build a counter with increment, decrement, and reset buttons
 function Counter() {
   // using useState to manage count
   const [count, setCount] = useState(0);
@@ -101,3 +102,4 @@ function App() {
   );
 }
 export default App;
+
